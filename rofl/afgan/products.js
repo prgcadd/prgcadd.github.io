@@ -111,5 +111,13 @@ const products = [
         price: 15990,
         image: "oscal-pilot3.jpg",
         category: "oscal"
+    },
+    {
+        id: 15,
+        name: "Mi 6",
+        description: "смартфон компании Xiaomi, флагман серии Mi, результат 7-летней работы компании",
+        price: 19900,
+        image: "mi6.jpg",
+        category: "mi"
     }
 ];
