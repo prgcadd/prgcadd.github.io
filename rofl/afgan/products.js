@@ -125,7 +125,7 @@ const products = [
         name: "Птица с яйцами для Google Pixel 9",
         description: "Дизайнерский силиконовый чехол для Google Pixel 9 Птица с яйцами",
         price: 300,
-        image: "gp6c.jpg",
+        image: "gp6c.png",
         category: "covers"
     }
 ];
