@@ -127,5 +127,13 @@ const products = [
         price: 300,
         image: "gp9c.png",
         category: "covers"
+    },
+    {
+        id: 17,
+        name: "Pixel 10",
+        description: "Открылся предзаказ Google Pixel 10!",
+        price: 59000,
+        image: "pixel10.png",
+        category: "pixel", "osp"
     }
 ];
