@@ -119,5 +119,13 @@ const products = [
         price: 19900,
         image: "mi6.jpg",
         category: "mi"
+    },
+    {
+        id: 16,
+        name: "Птица с яйцами для Google Pixel 9",
+        description: "Дизайнерский силиконовый чехол для Google Pixel 9 Птица с яйцами",
+        price: 300,
+        image: "gp6c.jpg",
+        category: "covers"
     }
 ];
