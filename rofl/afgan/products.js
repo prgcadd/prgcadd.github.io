@@ -135,7 +135,7 @@ const products = [
         price: 59000,
         image: "Pixel10.jpg",
         category: "osp"
-    }
+    },
     {
         id: 18,
         name: "Redmi 9A",
