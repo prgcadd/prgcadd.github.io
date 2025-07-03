@@ -136,4 +136,20 @@ const products = [
         image: "Pixel10.jpg",
         category: "osp"
     }
+    {
+        id: 18,
+        name: "Redmi 9A",
+        description: "Иммерсивный 6.53" HD+ дисплей. Большой экран обеспечивает ощущение полного погружения в виртуальный мир.",
+        price: 10000,
+        image: "redmi9a.jpg",
+        category: "mi"
+    }
+    {
+        id: 19,
+        name: "Перепрошивка на PixelOS",
+        description: "pixelos!!!1!1!1!",
+        price: 100,
+        image: "pixelos.jpeg",
+        category: "another"
+    }
 ];
