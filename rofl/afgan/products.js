@@ -143,7 +143,7 @@ const products = [
         price: 10000,
         image: "redmi9a.jpg",
         category: "mi"
-    }
+    },
     {
         id: 19,
         name: "Перепрошивка на PixelOS",
