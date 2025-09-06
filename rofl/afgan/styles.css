@@ -665,4 +665,31 @@ footer {
     .cart-container {
         max-width: 100%;
     }
+
+}
+
+/* Стили для плашки с предупреждением */
+.alert-banner {
+    background-color: #ffeb3b; /* Желтый фон */
+    color: #000; /* Черный текст */
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alert-banner a {
+    color: #000; /* Черный цвет для ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.alert-banner a:hover {
+    color: #ff5722; /* Оранжевый цвет при наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
 }
