@@ -686,14 +686,13 @@ footer {
 
 .alert-banner a {
     color: #000; /* Черный цвет для ссылки */
-    text-decoration: none; /* Убираем подчеркивание */
+    text-decoration: underline; /* Подчеркивание при наведении */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .alert-banner a:hover {
     color: #ff5722; /* Оранжевый цвет при наведении */
-    text-decoration: underline; /* Подчеркивание при наведении */
 }
 
 /* Добавляем отступ для body чтобы контент не скрывался под плашкой */
@@ -732,4 +731,5 @@ header {
     overflow-y: auto;
     z-index: 10000; /* Еще выше для контейнера корзины */
 }
+
 
