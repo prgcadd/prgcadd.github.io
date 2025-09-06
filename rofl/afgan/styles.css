@@ -680,19 +680,20 @@ footer {
     position: fixed; /* Фиксированное позиционирование */
     top: 0;
     left: 0;
-    z-index: 9999; /* Высокий z-index чтобы было поверх всего */
+    z-index: 1000; /* z-index ниже чем у корзины */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .alert-banner a {
     color: #000; /* Черный цвет для ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
     font-weight: bold;
     transition: color 0.3s ease;
-    text-decoration: underline;
 }
 
 .alert-banner a:hover {
     color: #ff5722; /* Оранжевый цвет при наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
 }
 
 /* Добавляем отступ для body чтобы контент не скрывался под плашкой */
@@ -703,9 +704,30 @@ body {
 /* Для header тоже добавляем отступ */
 header {
     position: sticky;
-    top: 40px; /* Высота плашки */
     z-index: 999;
     background: white;
 }
 
+/* Убедимся что корзина имеет более высокий z-index */
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Высокий z-index чтобы быть над плашкой */
+}
 
+.cart-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 10000; /* Еще выше для контейнера корзины */
+}
