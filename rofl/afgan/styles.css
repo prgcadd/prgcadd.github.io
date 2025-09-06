@@ -706,6 +706,7 @@ header {
     position: sticky;
     z-index: 999;
     background: white;
+    padding-top: 40px; /* Высота плашки + немного отступа */
 }
 
 /* Убедимся что корзина имеет более высокий z-index */
@@ -731,3 +732,4 @@ header {
     overflow-y: auto;
     z-index: 10000; /* Еще выше для контейнера корзины */
 }
+
