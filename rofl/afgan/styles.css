@@ -677,8 +677,10 @@ footer {
     font-weight: bold;
     font-size: 16px;
     width: 100%;
-    position: relative;
-    z-index: 1000;
+    position: fixed; /* Фиксированное позиционирование */
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Высокий z-index чтобы было поверх всего */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -693,3 +695,17 @@ footer {
     color: #ff5722; /* Оранжевый цвет при наведении */
     text-decoration: underline; /* Подчеркивание при наведении */
 }
+
+/* Добавляем отступ для body чтобы контент не скрывался под плашкой */
+body {
+    padding-top: 40px; /* Высота плашки + немного отступа */
+}
+
+/* Для header тоже добавляем отступ */
+header {
+    position: sticky;
+    top: 40px; /* Высота плашки */
+    z-index: 999;
+    background: white;
+}
+
